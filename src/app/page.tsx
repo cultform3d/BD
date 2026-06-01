@@ -182,7 +182,7 @@ export default function CULTFORMPresentation() {
               01
             </span>
             <h1 className="text-[15vw] md:text-[12vw] lg:text-[11vw] font-semibold tracking-[-0.03em] leading-none mb-8 md:mb-12">
-              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-foreground to-foreground/70">CULTFORM</span>
+              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-foreground to-foreground/70" style="letter-spacing: 0.97rem;">CULTFORM</span>
             </h1>
           </div>
           <div className="max-w-3xl lg:max-w-4xl flex flex-col items-center">
