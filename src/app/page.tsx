@@ -178,11 +178,8 @@ export default function CULTFORMPresentation() {
           }`}
         >
           <div className="relative inline-block">
-            <span className="absolute -left-8 md:-left-12 top-0 text-[10px] tracking-[0.2em] text-muted writing-vertical hidden lg:block">
-              01
-            </span>
             <h1 className="text-[15vw] md:text-[12vw] lg:text-[11vw] font-semibold tracking-[-0.03em] leading-none mb-8 md:mb-12">
-              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-foreground to-foreground/70" style="letter-spacing: 0.97rem;">CULTFORM</span>
+              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-foreground to-foreground/70 tracking-[0.5rem]">CULTFORM</span>
             </h1>
           </div>
           <div className="max-w-3xl lg:max-w-4xl flex flex-col items-center">
