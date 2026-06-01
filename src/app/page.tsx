@@ -251,11 +251,24 @@ export default function CULTFORMPresentation() {
               </div>
             </div>
 
-            <div className="w-full lg:w-2/3 group relative p-8 md:p-12 lg:p-16 border border-foreground/10 bg-neon-orange/5 hover:bg-neon-orange/10 border-neon-orange/20 hover:border-neon-orange/50 transition-colors duration-500 rounded-2xl">
-              <div className="absolute top-0 left-0 w-16 h-1 bg-neon-orange rounded-tl-2xl" />
-              <p className="text-lg md:text-xl lg:text-2xl leading-relaxed">
-                <span className="text-neon-orange font-semibold">Пассивный доход</span> на весь срок действия контракта с клиентом
-              </p>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
+              <div className="group relative p-8 md:p-12 lg:p-16 border border-foreground/10 bg-neon-orange/5 hover:bg-neon-orange/10 border-neon-orange/20 hover:border-neon-orange/50 transition-colors duration-500 rounded-2xl">
+                <div className="absolute top-0 left-0 w-16 h-1 bg-neon-orange rounded-tl-2xl" />
+                <p className="text-lg md:text-xl lg:text-2xl leading-relaxed">
+                  <span className="text-neon-orange font-semibold">Пассивный доход</span>{" "}
+                  на весь срок действия контракта с клиентом
+                </p>
+              </div>
+
+              <div className="group relative p-8 md:p-12 lg:p-16 border border-foreground/10 bg-neon-blue/5 hover:bg-neon-blue/10 border-neon-blue/20 hover:border-neon-blue/50 transition-colors duration-500 rounded-2xl">
+                <div className="absolute top-0 left-0 w-16 h-1 bg-neon-blue rounded-tl-2xl" />
+                <p className="text-lg md:text-xl lg:text-2xl leading-relaxed">
+                  Возможно совмещение с другими видами деятельности, допустима{" "}
+                  <span className="text-neon-blue font-semibold">
+                    частичная занятость
+                  </span>
+                </p>
+              </div>
             </div>
           </div>
         </div>
